@@ -9,8 +9,8 @@ import (
 	"gorm.io/driver/sqlserver"
 	"gorm.io/gorm"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/core"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/types"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/core"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/types"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/gocode"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/proto"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/gocode"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/proto"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 func TestCode(t *testing.T) {

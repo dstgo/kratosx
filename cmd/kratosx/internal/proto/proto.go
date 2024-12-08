@@ -1,10 +1,11 @@
 package proto
 
 import (
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/proto/add"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/proto/client"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/proto/server"
 	"github.com/spf13/cobra"
+
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/proto/add"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/proto/client"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/proto/server"
 )
 
 // CmdProto represents the proto command.

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
     "github.com/go-kratos/kratos/v2/transport/http"
 

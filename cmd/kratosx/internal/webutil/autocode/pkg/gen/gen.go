@@ -9,8 +9,8 @@ import (
 	"golang.org/x/mod/modfile"
 	"gorm.io/gorm"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 type Builder struct {

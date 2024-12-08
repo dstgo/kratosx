@@ -1,4 +1,4 @@
-module github.com/limes-cloud/kratosx/cmd/protoc-gen-go-httpx
+module github.com/dstgo/kratosx/cmd/protoc-gen-go-httpx
 
 go 1.19
 

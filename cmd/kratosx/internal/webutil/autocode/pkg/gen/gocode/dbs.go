@@ -12,9 +12,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 type byDbsCodeType struct {

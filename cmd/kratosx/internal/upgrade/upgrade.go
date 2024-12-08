@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/base"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/base"
 )
 
 // CmdUpgrade represents the upgrade command.

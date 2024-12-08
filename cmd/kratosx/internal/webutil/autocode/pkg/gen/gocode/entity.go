@@ -3,9 +3,6 @@ package gocode
 import (
 	"bytes"
 	"fmt"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 	"go/ast"
 	"go/parser"
 	"go/printer"
@@ -13,6 +10,10 @@ import (
 	"os"
 	"strings"
 	"text/template"
+
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 type Entity struct {

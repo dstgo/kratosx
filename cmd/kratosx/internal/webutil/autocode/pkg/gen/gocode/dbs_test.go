@@ -3,10 +3,11 @@ package gocode
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 	"os"
 	"testing"
+
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 func TestGenDbs(t *testing.T) {

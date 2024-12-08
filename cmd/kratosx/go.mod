@@ -1,4 +1,4 @@
-module github.com/limes-cloud/kratosx/cmd/kratosx
+module github.com/dstgo/kratosx/cmd/kratosx
 
 go 1.21.1
 

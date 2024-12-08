@@ -2,9 +2,9 @@ package entity
 
 import (
     {{if .IsTree}}
-    "github.com/limes-cloud/kratosx/pkg/tree"
+    "github.com/dstgo/kratosx/pkg/tree"
     {{end}}
-    "github.com/limes-cloud/kratosx/types"
+    "github.com/dstgo/kratosx/types"
 )
 
 

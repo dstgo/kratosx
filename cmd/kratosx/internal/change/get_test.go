@@ -8,8 +8,8 @@ func TestParseGithubURL(t *testing.T) {
 		owner string
 		repo  string
 	}{
-		{url: "https://github.com/limes-cloud/kratosx.git", owner: "go-kratos", repo: "kratos"},
-		{url: "https://github.com/limes-cloud/kratosx", owner: "go-kratos", repo: "kratos"},
+		{url: "https://github.com/dstgo/kratosx.git", owner: "go-kratos", repo: "kratos"},
+		{url: "https://github.com/dstgo/kratosx", owner: "go-kratos", repo: "kratos"},
 		{url: "git@github.com:limes-cloud/kratosx.git", owner: "go-kratos", repo: "kratos"},
 	}
 	for _, url := range urls {

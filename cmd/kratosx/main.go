@@ -5,12 +5,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/change"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/project"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/proto"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/run"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/upgrade"
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/change"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/project"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/proto"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/run"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/upgrade"
+	"github.com/dstgo/kratosx/cmd/kratosx/internal/webutil"
 )
 
 var rootCmd = &cobra.Command{
